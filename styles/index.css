@@ -27,15 +27,12 @@ html,body
     align-items: center;
     text-align: center;
 }
-.div_second
+
+.div_second.pool
 {
     height: 33%;
     display: flex;
     align-items: center;
-}
-
-.pool
-{
     background-image: url("../images/pool.png");
     background-repeat: no-repeat;
     justify-content: space-evenly;

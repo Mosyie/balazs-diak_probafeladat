@@ -121,10 +121,8 @@ function clickedContainer()
             selected_fruit = firstDiv.children[iIndex].children[jIndex];
             if(this !== selected_fruit.parentNode)
             {
-            console.log(iIndex)
-            firstDiv.children[iIndex].children[jIndex].classList.remove("selected_div");
-            console.log(selected_fruit)
-            this.append(selected_fruit)
+                firstDiv.children[iIndex].children[jIndex].classList.remove("selected_div");
+                this.append(selected_fruit)
             }
         }
 
