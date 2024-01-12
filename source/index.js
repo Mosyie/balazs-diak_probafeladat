@@ -192,7 +192,6 @@ function clickedFruit()
     else if(this.tagName === "IMG")
     {
         this.parentNode.classList.add("selected_div");
-        console.log(this.parentNode)
     }
 }
 
