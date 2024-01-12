@@ -1,0 +1,114 @@
+
+/*html, body settingek hogy a wrapper kitöltse az oldalt*/
+
+html,body
+{
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding: 0;
+}
+
+/* Oldalt két részre bontó divek */
+
+.wrapper{
+    height: inherit;
+    width: inherit;
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+}
+
+.div_first
+{
+    height: 67%;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.div_second
+{
+    height: 33%;
+    display: flex;
+    align-items: center;
+}
+
+.pool
+{
+    background-image: url("../images/pool.png");
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+    display: flex;
+    
+}
+
+/* -------------------------------- */
+
+/* konténerek */
+
+.container_div
+{
+    
+    position: absolute;
+    background-image: url("../images/screen.png");
+    background-size: contain;
+    justify-content: space-evenly;
+    margin: 1%;
+    width: 523px;
+    height: 387px;
+    align-items: center;
+    display: flex;
+}
+.container_div_element
+{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+/* -------------------------------- */
+
+/* pool divek és képek */
+.image_div
+{
+    width: 200px;
+    height: 200px;
+    
+}
+.image_inside_pool
+{
+    width: inherit;
+    height: inherit;
+}
+
+/* -------------------------------- */
+
+/* game over div */
+
+.game_over_div
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,.5);
+    
+}
+
+/* -------------------------------- */
+
+.selected_div
+{
+    border: 5px dashed #0f0;
+}
+
+.opacity
+{
+    opacity: 0.5;
+}
